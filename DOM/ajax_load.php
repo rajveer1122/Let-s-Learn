@@ -37,5 +37,5 @@ if (mysqli_num_rows($res) > 0) {
     mysqli_close($conn);
     echo $output;
 } else {
-    echo "no";
+    echo "failed";
 }
